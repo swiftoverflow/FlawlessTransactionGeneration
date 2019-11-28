@@ -1,0 +1,6 @@
+framework module Pods_FlawlessTransactionGeneration_FlawlessTransactionGenerationTests {
+  umbrella header "Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

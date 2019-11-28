@@ -22,6 +22,8 @@
 		15C97CAE238FEB4A007B78FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C97CAC238FEB4A007B78FB /* LaunchScreen.storyboard */; };
 		15C97CC2238FED1A007B78FB /* FlawlessTransactionGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C97CC1238FED1A007B78FB /* FlawlessTransactionGeneration.swift */; };
 		B6803E6AA4FFD0474CDDA548 /* Pods_FlawlessTransactionGeneration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDBCA327550815FF5A623DB /* Pods_FlawlessTransactionGeneration.framework */; platformFilter = ios; };
+		E54A6717929635A91490AE56 /* Pods_FlawlessTransactionExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAB22693E143B2988DF9D64 /* Pods_FlawlessTransactionExamples.framework */; };
+		FC3AD7C3734A668F27544B4B /* Pods_FlawlessTransactionGeneration_FlawlessTransactionGenerationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE9D9283BC34DB9EC3EA232 /* Pods_FlawlessTransactionGeneration_FlawlessTransactionGenerationTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0A3C1E3A6484B8D730B67FF7 /* Pods-FlawlessTransactionGeneration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessTransactionGeneration.release.xcconfig"; path = "Target Support Files/Pods-FlawlessTransactionGeneration/Pods-FlawlessTransactionGeneration.release.xcconfig"; sourceTree = "<group>"; };
+		1242DD53A60A73BDAF2DBF23 /* Pods-FlawlessTransactionExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessTransactionExamples.debug.xcconfig"; path = "Target Support Files/Pods-FlawlessTransactionExamples/Pods-FlawlessTransactionExamples.debug.xcconfig"; sourceTree = "<group>"; };
 		15432F28238FEE4D00A2C842 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		15432F2A238FEE6600A2C842 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		15432F2C238FF46C00A2C842 /* FlawlessValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FlawlessValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,8 +59,13 @@
 		15C97CAD238FEB4A007B78FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15C97CAF238FEB4A007B78FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C97CC1238FED1A007B78FB /* FlawlessTransactionGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlawlessTransactionGeneration.swift; sourceTree = "<group>"; };
+		1EAB22693E143B2988DF9D64 /* Pods_FlawlessTransactionExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlawlessTransactionExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDBCA327550815FF5A623DB /* Pods_FlawlessTransactionGeneration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlawlessTransactionGeneration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60840654B71E19A740A8BF85 /* Pods-FlawlessTransactionGeneration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessTransactionGeneration.debug.xcconfig"; path = "Target Support Files/Pods-FlawlessTransactionGeneration/Pods-FlawlessTransactionGeneration.debug.xcconfig"; sourceTree = "<group>"; };
+		B1128A063ACA62025AA0DAA0 /* Pods-FlawlessTransactionExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessTransactionExamples.release.xcconfig"; path = "Target Support Files/Pods-FlawlessTransactionExamples/Pods-FlawlessTransactionExamples.release.xcconfig"; sourceTree = "<group>"; };
+		C88A0D3A5955255BB9F80994 /* Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests.debug.xcconfig"; path = "Target Support Files/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D904909415510766F5B26689 /* Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests.release.xcconfig"; path = "Target Support Files/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests.release.xcconfig"; sourceTree = "<group>"; };
+		DFE9D9283BC34DB9EC3EA232 /* Pods_FlawlessTransactionGeneration_FlawlessTransactionGenerationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlawlessTransactionGeneration_FlawlessTransactionGenerationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15C97C8B238FEAA2007B78FB /* FlawlessTransactionGeneration.framework in Frameworks */,
+				FC3AD7C3734A668F27544B4B /* Pods_FlawlessTransactionGeneration_FlawlessTransactionGenerationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E54A6717929635A91490AE56 /* Pods_FlawlessTransactionExamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +161,8 @@
 			children = (
 				15432F2C238FF46C00A2C842 /* FlawlessValidation.framework */,
 				4FDBCA327550815FF5A623DB /* Pods_FlawlessTransactionGeneration.framework */,
+				1EAB22693E143B2988DF9D64 /* Pods_FlawlessTransactionExamples.framework */,
+				DFE9D9283BC34DB9EC3EA232 /* Pods_FlawlessTransactionGeneration_FlawlessTransactionGenerationTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,6 +172,10 @@
 			children = (
 				60840654B71E19A740A8BF85 /* Pods-FlawlessTransactionGeneration.debug.xcconfig */,
 				0A3C1E3A6484B8D730B67FF7 /* Pods-FlawlessTransactionGeneration.release.xcconfig */,
+				1242DD53A60A73BDAF2DBF23 /* Pods-FlawlessTransactionExamples.debug.xcconfig */,
+				B1128A063ACA62025AA0DAA0 /* Pods-FlawlessTransactionExamples.release.xcconfig */,
+				C88A0D3A5955255BB9F80994 /* Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests.debug.xcconfig */,
+				D904909415510766F5B26689 /* Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -201,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15C97C98238FEAA2007B78FB /* Build configuration list for PBXNativeTarget "FlawlessTransactionGenerationTests" */;
 			buildPhases = (
+				295A0B712DAC45EAC944EE11 /* [CP] Check Pods Manifest.lock */,
 				15C97C86238FEAA2007B78FB /* Sources */,
 				15C97C87238FEAA2007B78FB /* Frameworks */,
 				15C97C88238FEAA2007B78FB /* Resources */,
+				23766924FB504BEBEBB2CFC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15C97CBB238FEB4A007B78FB /* Build configuration list for PBXNativeTarget "FlawlessTransactionExamples" */;
 			buildPhases = (
+				2DCA1C84D50D6DB4C376008D /* [CP] Check Pods Manifest.lock */,
 				15C97C9B238FEB49007B78FB /* Sources */,
 				15C97C9C238FEB49007B78FB /* Frameworks */,
 				15C97C9D238FEB49007B78FB /* Resources */,
+				06A9639D554A564F56AF473C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,6 +324,84 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06A9639D554A564F56AF473C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlawlessTransactionExamples/Pods-FlawlessTransactionExamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlawlessTransactionExamples/Pods-FlawlessTransactionExamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlawlessTransactionExamples/Pods-FlawlessTransactionExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23766924FB504BEBEBB2CFC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		295A0B712DAC45EAC944EE11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DCA1C84D50D6DB4C376008D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlawlessTransactionExamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D2409107E602E0148E3B9AE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -562,6 +660,7 @@
 		};
 		15C97C99238FEAA2007B78FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88A0D3A5955255BB9F80994 /* Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +679,7 @@
 		};
 		15C97C9A238FEAA2007B78FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D904909415510766F5B26689 /* Pods-FlawlessTransactionGeneration-FlawlessTransactionGenerationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,6 +698,7 @@
 		};
 		15C97CBC238FEB4A007B78FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1242DD53A60A73BDAF2DBF23 /* Pods-FlawlessTransactionExamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -616,6 +717,7 @@
 		};
 		15C97CBD238FEB4A007B78FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1128A063ACA62025AA0DAA0 /* Pods-FlawlessTransactionExamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
