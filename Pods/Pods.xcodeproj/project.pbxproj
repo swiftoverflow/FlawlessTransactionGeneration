@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4A504DF6EFAE1FD4B7A5C33204D036 /* FlawlessValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 51BC70173195E781F8F0A6DB50B4EED3 /* FlawlessValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E94D9ABCE534878D00B584A1DA5150 /* FlawlessValidation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C47D5C5B6A845C99E21BB42834165D3E /* FlawlessValidation-dummy.m */; };
+		7B15182B4EE422F6115F9F66AA805E49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8E1895D6ABD84F79044B5C3E8801DAD6 /* Pods-FlawlessTransactionGeneration-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DCA63892CE5327C96C9C045302D77A /* Pods-FlawlessTransactionGeneration-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92F8EBC7021678EAFF5C4749829EDD4B /* Pods-FlawlessTransactionGeneration-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2313F1FE181E091C06A4BC9238CBB19 /* Pods-FlawlessTransactionGeneration-dummy.m */; };
+		997937B68D1E4919447261AB14CB2703 /* FlawlessValidation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6941D631F0DEC2FC0CD823CD64CBA15 /* FlawlessValidation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9C432B9EC977FE602EFBF56FAA7B02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F1F14897DF08E0B174423F19096D4B4F /* FlawlessValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3604F38480457C8842C8ACF7E45CEA60 /* FlawlessValidation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1988861F8A30A71E70128FB5E5E47F09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80CCD86ED3ED31E7BB8513FD6BE645DE;
+			remoteInfo = FlawlessValidation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C6FD888CCF13DC94E8FFD5B41131C71 /* FlawlessValidation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlawlessValidation.xcconfig; sourceTree = "<group>"; };
+		117628C32366DC341163BA6AE0F7128E /* Pods-FlawlessTransactionGeneration-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlawlessTransactionGeneration-Info.plist"; sourceTree = "<group>"; };
+		2295888D87B3010928653CBB70278AE1 /* Pods_FlawlessTransactionGeneration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlawlessTransactionGeneration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3604F38480457C8842C8ACF7E45CEA60 /* FlawlessValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlawlessValidation.swift; path = FlawlessValidation/FlawlessValidation.swift; sourceTree = "<group>"; };
+		51BC70173195E781F8F0A6DB50B4EED3 /* FlawlessValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlawlessValidation.h; path = FlawlessValidation/FlawlessValidation.h; sourceTree = "<group>"; };
+		6B1FE87486503DD0F6C0BC7B55863DF0 /* Pods-FlawlessTransactionGeneration-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlawlessTransactionGeneration-acknowledgements.plist"; sourceTree = "<group>"; };
+		787EBF023483FD915210762DF8E88C7B /* FlawlessValidation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlawlessValidation-prefix.pch"; sourceTree = "<group>"; };
+		890EA6E6BA4EA06E063A2E7F66B5D4A6 /* Pods-FlawlessTransactionGeneration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlawlessTransactionGeneration.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0BE332482EBD624422F1CC133298ED8 /* FlawlessValidation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlawlessValidation.modulemap; sourceTree = "<group>"; };
+		AEF23E9BB2551D7ACB31AB168D278D23 /* FlawlessValidation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlawlessValidation-Info.plist"; sourceTree = "<group>"; };
+		B54341804C3128FAC2DAE259DCF480E8 /* FlawlessValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlawlessValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6ABE19705B0C54A5CF40AAF1C027062 /* Pods-FlawlessTransactionGeneration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlawlessTransactionGeneration.debug.xcconfig"; sourceTree = "<group>"; };
+		C1A8A628CC17ACADA09D6979A8E09696 /* Pods-FlawlessTransactionGeneration.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FlawlessTransactionGeneration.modulemap"; sourceTree = "<group>"; };
+		C47D5C5B6A845C99E21BB42834165D3E /* FlawlessValidation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlawlessValidation-dummy.m"; sourceTree = "<group>"; };
+		C6941D631F0DEC2FC0CD823CD64CBA15 /* FlawlessValidation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlawlessValidation-umbrella.h"; sourceTree = "<group>"; };
+		D2313F1FE181E091C06A4BC9238CBB19 /* Pods-FlawlessTransactionGeneration-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlawlessTransactionGeneration-dummy.m"; sourceTree = "<group>"; };
+		E9DCA63892CE5327C96C9C045302D77A /* Pods-FlawlessTransactionGeneration-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlawlessTransactionGeneration-umbrella.h"; sourceTree = "<group>"; };
+		FB489AAF50190F658C5A9EABB51F33B8 /* Pods-FlawlessTransactionGeneration-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlawlessTransactionGeneration-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3452C800B9617CCD4A0901A82665A9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B15182B4EE422F6115F9F66AA805E49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8A59B546AD9B3E1ECA3D4A80EC6C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9C432B9EC977FE602EFBF56FAA7B02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22825A99454BE7979221487A51B32F02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0BE332482EBD624422F1CC133298ED8 /* FlawlessValidation.modulemap */,
+				0C6FD888CCF13DC94E8FFD5B41131C71 /* FlawlessValidation.xcconfig */,
+				C47D5C5B6A845C99E21BB42834165D3E /* FlawlessValidation-dummy.m */,
+				AEF23E9BB2551D7ACB31AB168D278D23 /* FlawlessValidation-Info.plist */,
+				787EBF023483FD915210762DF8E88C7B /* FlawlessValidation-prefix.pch */,
+				C6941D631F0DEC2FC0CD823CD64CBA15 /* FlawlessValidation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlawlessValidation";
+			sourceTree = "<group>";
+		};
+		63225E24238E4287637949AC5C69637B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8C25418561C155F40E31CE71FCC3C63 /* FlawlessValidation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A191B7809AFDA8D9DC54FB1C979E889 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8ADB2C792F0116C89041E26EFC57AE6 /* Pods-FlawlessTransactionGeneration */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A8C25418561C155F40E31CE71FCC3C63 /* FlawlessValidation */ = {
+			isa = PBXGroup;
+			children = (
+				51BC70173195E781F8F0A6DB50B4EED3 /* FlawlessValidation.h */,
+				3604F38480457C8842C8ACF7E45CEA60 /* FlawlessValidation.swift */,
+				22825A99454BE7979221487A51B32F02 /* Support Files */,
+			);
+			path = FlawlessValidation;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB82A641BCA49B2B691B6D271F8D0A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B54341804C3128FAC2DAE259DCF480E8 /* FlawlessValidation.framework */,
+				2295888D87B3010928653CBB70278AE1 /* Pods_FlawlessTransactionGeneration.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				63225E24238E4287637949AC5C69637B /* Pods */,
+				CB82A641BCA49B2B691B6D271F8D0A5D /* Products */,
+				9A191B7809AFDA8D9DC54FB1C979E889 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8ADB2C792F0116C89041E26EFC57AE6 /* Pods-FlawlessTransactionGeneration */ = {
+			isa = PBXGroup;
+			children = (
+				C1A8A628CC17ACADA09D6979A8E09696 /* Pods-FlawlessTransactionGeneration.modulemap */,
+				FB489AAF50190F658C5A9EABB51F33B8 /* Pods-FlawlessTransactionGeneration-acknowledgements.markdown */,
+				6B1FE87486503DD0F6C0BC7B55863DF0 /* Pods-FlawlessTransactionGeneration-acknowledgements.plist */,
+				D2313F1FE181E091C06A4BC9238CBB19 /* Pods-FlawlessTransactionGeneration-dummy.m */,
+				117628C32366DC341163BA6AE0F7128E /* Pods-FlawlessTransactionGeneration-Info.plist */,
+				E9DCA63892CE5327C96C9C045302D77A /* Pods-FlawlessTransactionGeneration-umbrella.h */,
+				B6ABE19705B0C54A5CF40AAF1C027062 /* Pods-FlawlessTransactionGeneration.debug.xcconfig */,
+				890EA6E6BA4EA06E063A2E7F66B5D4A6 /* Pods-FlawlessTransactionGeneration.release.xcconfig */,
+			);
+			name = "Pods-FlawlessTransactionGeneration";
+			path = "Target Support Files/Pods-FlawlessTransactionGeneration";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FD35BE3B534269FAF6BE41BA91F64E50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1895D6ABD84F79044B5C3E8801DAD6 /* Pods-FlawlessTransactionGeneration-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFEE1E7D806E72E3EF5547F10F74E4D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997937B68D1E4919447261AB14CB2703 /* FlawlessValidation-umbrella.h in Headers */,
+				4B4A504DF6EFAE1FD4B7A5C33204D036 /* FlawlessValidation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		80CCD86ED3ED31E7BB8513FD6BE645DE /* FlawlessValidation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B97CB9FC8AFAB0E320662B9167196A2 /* Build configuration list for PBXNativeTarget "FlawlessValidation" */;
+			buildPhases = (
+				FFEE1E7D806E72E3EF5547F10F74E4D2 /* Headers */,
+				D475A4BB81D6C21CFE14763DB84F9575 /* Sources */,
+				9F8A59B546AD9B3E1ECA3D4A80EC6C83 /* Frameworks */,
+				2BB6785963B6DEC532F9697AA5421D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlawlessValidation;
+			productName = FlawlessValidation;
+			productReference = B54341804C3128FAC2DAE259DCF480E8 /* FlawlessValidation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8562E6CD4AF171D6E6638951D73B63F0 /* Pods-FlawlessTransactionGeneration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0E39CC13570C74D46456D6D688450C /* Build configuration list for PBXNativeTarget "Pods-FlawlessTransactionGeneration" */;
+			buildPhases = (
+				FD35BE3B534269FAF6BE41BA91F64E50 /* Headers */,
+				936922F175909E8294BB4CF4CCEC9914 /* Sources */,
+				3452C800B9617CCD4A0901A82665A9E2 /* Frameworks */,
+				B0AF7E0181A1A6501862B41542030345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8059FB6E7E8862AC67CDFBD6A11835BD /* PBXTargetDependency */,
+			);
+			name = "Pods-FlawlessTransactionGeneration";
+			productName = "Pods-FlawlessTransactionGeneration";
+			productReference = 2295888D87B3010928653CBB70278AE1 /* Pods_FlawlessTransactionGeneration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CB82A641BCA49B2B691B6D271F8D0A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CCD86ED3ED31E7BB8513FD6BE645DE /* FlawlessValidation */,
+				8562E6CD4AF171D6E6638951D73B63F0 /* Pods-FlawlessTransactionGeneration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB6785963B6DEC532F9697AA5421D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0AF7E0181A1A6501862B41542030345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		936922F175909E8294BB4CF4CCEC9914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F8EBC7021678EAFF5C4749829EDD4B /* Pods-FlawlessTransactionGeneration-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D475A4BB81D6C21CFE14763DB84F9575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67E94D9ABCE534878D00B584A1DA5150 /* FlawlessValidation-dummy.m in Sources */,
+				F1F14897DF08E0B174423F19096D4B4F /* FlawlessValidation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8059FB6E7E8862AC67CDFBD6A11835BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlawlessValidation;
+			target = 80CCD86ED3ED31E7BB8513FD6BE645DE /* FlawlessValidation */;
+			targetProxy = 1988861F8A30A71E70128FB5E5E47F09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		48A8093654D3DF5CA440B47888C0D1C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6FD888CCF13DC94E8FFD5B41131C71 /* FlawlessValidation.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlawlessValidation/FlawlessValidation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlawlessValidation/FlawlessValidation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlawlessValidation/FlawlessValidation.modulemap";
+				PRODUCT_MODULE_NAME = FlawlessValidation;
+				PRODUCT_NAME = FlawlessValidation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48B87BC6FB97CF45ED33009BFAADE3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890EA6E6BA4EA06E063A2E7F66B5D4A6 /* Pods-FlawlessTransactionGeneration.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlawlessTransactionGeneration/Pods-FlawlessTransactionGeneration-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlawlessTransactionGeneration/Pods-FlawlessTransactionGeneration.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		958605DED27AC0156F0E12C9470BEC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6ABE19705B0C54A5CF40AAF1C027062 /* Pods-FlawlessTransactionGeneration.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FlawlessTransactionGeneration/Pods-FlawlessTransactionGeneration-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FlawlessTransactionGeneration/Pods-FlawlessTransactionGeneration.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D35A365D89AD73162FA47E0C705D7F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6FD888CCF13DC94E8FFD5B41131C71 /* FlawlessValidation.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlawlessValidation/FlawlessValidation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlawlessValidation/FlawlessValidation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlawlessValidation/FlawlessValidation.modulemap";
+				PRODUCT_MODULE_NAME = FlawlessValidation;
+				PRODUCT_NAME = FlawlessValidation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B97CB9FC8AFAB0E320662B9167196A2 /* Build configuration list for PBXNativeTarget "FlawlessValidation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35A365D89AD73162FA47E0C705D7F09 /* Debug */,
+				48A8093654D3DF5CA440B47888C0D1C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0E39CC13570C74D46456D6D688450C /* Build configuration list for PBXNativeTarget "Pods-FlawlessTransactionGeneration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958605DED27AC0156F0E12C9470BEC3D /* Debug */,
+				48B87BC6FB97CF45ED33009BFAADE3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

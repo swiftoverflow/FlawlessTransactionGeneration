@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15432F29238FEE4D00A2C842 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15432F28238FEE4D00A2C842 /* Money.swift */; };
+		15432F2B238FEE6600A2C842 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15432F2A238FEE6600A2C842 /* Transaction.swift */; };
 		15C97C8B238FEAA2007B78FB /* FlawlessTransactionGeneration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C97C81238FEAA2007B78FB /* FlawlessTransactionGeneration.framework */; };
 		15C97C90238FEAA2007B78FB /* FlawlessTransactionGenerationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C97C8F238FEAA2007B78FB /* FlawlessTransactionGenerationTests.swift */; };
 		15C97C92238FEAA2007B78FB /* FlawlessTransactionGeneration.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C97C84238FEAA2007B78FB /* FlawlessTransactionGeneration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +18,8 @@
 		15C97CA9238FEB49007B78FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C97CA7238FEB49007B78FB /* Main.storyboard */; };
 		15C97CAB238FEB4A007B78FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C97CAA238FEB4A007B78FB /* Assets.xcassets */; };
 		15C97CAE238FEB4A007B78FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C97CAC238FEB4A007B78FB /* LaunchScreen.storyboard */; };
+		15C97CC2238FED1A007B78FB /* FlawlessTransactionGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C97CC1238FED1A007B78FB /* FlawlessTransactionGeneration.swift */; };
+		B6803E6AA4FFD0474CDDA548 /* Pods_FlawlessTransactionGeneration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDBCA327550815FF5A623DB /* Pods_FlawlessTransactionGeneration.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3C1E3A6484B8D730B67FF7 /* Pods-FlawlessTransactionGeneration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessTransactionGeneration.release.xcconfig"; path = "Target Support Files/Pods-FlawlessTransactionGeneration/Pods-FlawlessTransactionGeneration.release.xcconfig"; sourceTree = "<group>"; };
+		15432F28238FEE4D00A2C842 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		15432F2A238FEE6600A2C842 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		15432F2C238FF46C00A2C842 /* FlawlessValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FlawlessValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C97C81238FEAA2007B78FB /* FlawlessTransactionGeneration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlawlessTransactionGeneration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C97C84238FEAA2007B78FB /* FlawlessTransactionGeneration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlawlessTransactionGeneration.h; sourceTree = "<group>"; };
 		15C97C85238FEAA2007B78FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +51,9 @@
 		15C97CAA238FEB4A007B78FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15C97CAD238FEB4A007B78FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15C97CAF238FEB4A007B78FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C97CC1238FED1A007B78FB /* FlawlessTransactionGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlawlessTransactionGeneration.swift; sourceTree = "<group>"; };
+		4FDBCA327550815FF5A623DB /* Pods_FlawlessTransactionGeneration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlawlessTransactionGeneration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60840654B71E19A740A8BF85 /* Pods-FlawlessTransactionGeneration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlawlessTransactionGeneration.debug.xcconfig"; path = "Target Support Files/Pods-FlawlessTransactionGeneration/Pods-FlawlessTransactionGeneration.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6803E6AA4FFD0474CDDA548 /* Pods_FlawlessTransactionGeneration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,8 @@
 				15C97C8E238FEAA2007B78FB /* FlawlessTransactionGenerationTests */,
 				15C97CA0238FEB49007B78FB /* FlawlessTransactionExamples */,
 				15C97C82238FEAA2007B78FB /* Products */,
+				CE0B0A2771FF6DB68B970765 /* Pods */,
+				6D99D98365309DDA7F7017BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +110,9 @@
 			children = (
 				15C97C84238FEAA2007B78FB /* FlawlessTransactionGeneration.h */,
 				15C97C85238FEAA2007B78FB /* Info.plist */,
+				15C97CC1238FED1A007B78FB /* FlawlessTransactionGeneration.swift */,
+				15432F28238FEE4D00A2C842 /* Money.swift */,
+				15432F2A238FEE6600A2C842 /* Transaction.swift */,
 			);
 			path = FlawlessTransactionGeneration;
 			sourceTree = "<group>";
@@ -123,6 +140,24 @@
 			path = FlawlessTransactionExamples;
 			sourceTree = "<group>";
 		};
+		6D99D98365309DDA7F7017BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15432F2C238FF46C00A2C842 /* FlawlessValidation.framework */,
+				4FDBCA327550815FF5A623DB /* Pods_FlawlessTransactionGeneration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0B0A2771FF6DB68B970765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60840654B71E19A740A8BF85 /* Pods-FlawlessTransactionGeneration.debug.xcconfig */,
+				0A3C1E3A6484B8D730B67FF7 /* Pods-FlawlessTransactionGeneration.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -141,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15C97C95238FEAA2007B78FB /* Build configuration list for PBXNativeTarget "FlawlessTransactionGeneration" */;
 			buildPhases = (
+				D2409107E602E0148E3B9AE3 /* [CP] Check Pods Manifest.lock */,
 				15C97C7C238FEAA2007B78FB /* Headers */,
 				15C97C7D238FEAA2007B78FB /* Sources */,
 				15C97C7E238FEAA2007B78FB /* Frameworks */,
@@ -202,6 +238,7 @@
 				TargetAttributes = {
 					15C97C80238FEAA2007B78FB = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					15C97C89238FEAA2007B78FB = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -258,11 +295,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D2409107E602E0148E3B9AE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlawlessTransactionGeneration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15C97C7D238FEAA2007B78FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15432F29238FEE4D00A2C842 /* Money.swift in Sources */,
+				15C97CC2238FED1A007B78FB /* FlawlessTransactionGeneration.swift in Sources */,
+				15432F2B238FEE6600A2C842 /* Transaction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +501,9 @@
 		};
 		15C97C96238FEAA2007B78FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60840654B71E19A740A8BF85 /* Pods-FlawlessTransactionGeneration.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -453,6 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftOverflow.FlawlessTransactionGeneration;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +528,9 @@
 		};
 		15C97C97238FEAA2007B78FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3C1E3A6484B8D730B67FF7 /* Pods-FlawlessTransactionGeneration.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -485,6 +555,7 @@
 		15C97C99238FEAA2007B78FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FlawlessTransactionGenerationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -502,6 +573,7 @@
 		15C97C9A238FEAA2007B78FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FlawlessTransactionGenerationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

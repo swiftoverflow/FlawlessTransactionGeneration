@@ -1,0 +1,16 @@
+PODS:
+  - FlawlessValidation (0.0.2)
+
+DEPENDENCIES:
+  - FlawlessValidation
+
+SPEC REPOS:
+  trunk:
+    - FlawlessValidation
+
+SPEC CHECKSUMS:
+  FlawlessValidation: e1ecde9d06a3d382a1dfe8148000520d64dea6e2
+
+PODFILE CHECKSUM: 54d7a907901d00d39e77eb6f82f59eebb33cf2e4
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module FlawlessValidation {
+  umbrella header "FlawlessValidation-umbrella.h"
+
+  export *
+  module * { export * }
+}
