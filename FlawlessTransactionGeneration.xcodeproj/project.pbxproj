@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		15432F29238FEE4D00A2C842 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15432F28238FEE4D00A2C842 /* Money.swift */; };
 		15432F2B238FEE6600A2C842 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15432F2A238FEE6600A2C842 /* Transaction.swift */; };
+		15432F4B238FF83100A2C842 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 15432F4A238FF83100A2C842 /* .travis.yml */; };
+		15432F4D238FF85100A2C842 /* .slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = 15432F4C238FF85100A2C842 /* .slather.yml */; };
 		15C97C8B238FEAA2007B78FB /* FlawlessTransactionGeneration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C97C81238FEAA2007B78FB /* FlawlessTransactionGeneration.framework */; };
 		15C97C90238FEAA2007B78FB /* FlawlessTransactionGenerationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C97C8F238FEAA2007B78FB /* FlawlessTransactionGenerationTests.swift */; };
 		15C97C92238FEAA2007B78FB /* FlawlessTransactionGeneration.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C97C84238FEAA2007B78FB /* FlawlessTransactionGeneration.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,6 +39,8 @@
 		15432F28238FEE4D00A2C842 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		15432F2A238FEE6600A2C842 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		15432F2C238FF46C00A2C842 /* FlawlessValidation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FlawlessValidation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15432F4A238FF83100A2C842 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		15432F4C238FF85100A2C842 /* .slather.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .slather.yml; sourceTree = "<group>"; };
 		15C97C81238FEAA2007B78FB /* FlawlessTransactionGeneration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlawlessTransactionGeneration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C97C84238FEAA2007B78FB /* FlawlessTransactionGeneration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlawlessTransactionGeneration.h; sourceTree = "<group>"; };
 		15C97C85238FEAA2007B78FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 		15C97C77238FEAA2007B78FB = {
 			isa = PBXGroup;
 			children = (
+				15432F4C238FF85100A2C842 /* .slather.yml */,
+				15432F4A238FF83100A2C842 /* .travis.yml */,
 				15C97C83238FEAA2007B78FB /* FlawlessTransactionGeneration */,
 				15C97C8E238FEAA2007B78FB /* FlawlessTransactionGenerationTests */,
 				15C97CA0238FEB49007B78FB /* FlawlessTransactionExamples */,
@@ -273,6 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15432F4B238FF83100A2C842 /* .travis.yml in Resources */,
+				15432F4D238FF85100A2C842 /* .slather.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

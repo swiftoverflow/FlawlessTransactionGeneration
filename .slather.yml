@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: FlawlessTransactionGeneration.xcodeproj
+scheme: FlawlessTransactionGeneration
+output_directory: reports
+ignore:
+  - FlawlessTransactionGenerationTests/*
