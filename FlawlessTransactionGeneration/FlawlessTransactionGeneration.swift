@@ -32,7 +32,6 @@ public class FlawlessTransactionGeneration {
             print("Дата транзакции - \(dateFormatter.string(from: statement.date))\nОперация - \(statement.title)\nСтоимость - \(value) \(statement.amount.currency.grapheme.rawValue)\nКатегория - \(statement.kind.rawValue)\nВалюта - \(statement.amount.currency.name), Краткое имя - \(statement.amount.currency.shortName), Код - \(statement.amount.currency.code.rawValue), Символ - \(statement.amount.currency.symbol.rawValue)")
             print("\n")
         }
-        print("Test")
     }
     
     ///Генерирует случайные транзакции в интервале времени от 10 суток назад до сегодняшенго дня
